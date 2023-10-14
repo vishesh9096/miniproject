@@ -17,18 +17,16 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <Navbar />
-      <div className="upper-body bg-gray-200 p-4">
+      <div className="upper-body p-4" style={{ backgroundColor: "#d8e7ec"}}>
         <div className="main-body flex m-24">
           <div className="home-body flex-1">
             <div className="content text-6xl font-bold mr-52 text-red-800">
-              Ultra Safe: AI-Powered Fire Safety Solutions
+              LifeNudge: Your Lifestyle Coach
             </div>
-            <div className="sub-cotent mr-52 mt-8">
-              Ultra Safe is a cutting-edge fire safety consultancy that
-              leverages AI-powered chatbots to enhance fire safety in building
-              and factory construction. Our services help construction companies
-              ensure fire safety compliance, reduce risks, and create safer
-              environments for occupants.
+            <div className="sub-cotent text-black mr-52 mt-8">
+            At LifeNudge, we believe that every individual has the power to lead a fulfilling 
+            and balanced life. We're here to guide and support you on your journey to unlock your true potential,
+             achieve your goals, and find harmony in all aspects of your life.
             </div>
             <div className="home-body-get-staeted mt-8">
               <a href="/chat-with-AI"><button className="button bg-orange-400 hover:bg-orange-600 text-white font-bold p-4 px-8 rounded-xl">
@@ -38,7 +36,7 @@ export default function Home() {
             </div>
           </div>
           <div className="body-img">
-            <img className="nav-logo h-96" src="/img/home-gif.gif" />
+            <img className="nav-logo h-96 rounded-full" src="/img/home-gif.gif" />
           </div>
         </div>
       </div>
@@ -79,7 +77,7 @@ const OurServices = () => {
             <div className="flex flex-wrap -mx-4">
               <div className="w-full md:w-1/2 xl:w-1/3 px-4">
                 <div className="bg-gray-100 rounded-lg overflow-hidden mb-10 text-center">
-                  <img src="/img/community.svg" alt="image" className="h-60 w-full p-12" />
+                  <img src="/img/community.png" alt="image" className="h-60 w-full p-12" />
                   <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                     <h3>
                       <a href="/" className="
@@ -98,7 +96,7 @@ const OurServices = () => {
                       </a>
                     </h3>
                     <p className="text-base text-justify text-body-color leading-relaxed mb-7">
-                    Our community forum provides a platform for discussing fire safety topics, sharing experiences, and connecting with others interested in fire safety. It fosters a sense of community and knowledge sharing.
+                    Our forum provides a platform for discussing and connecting with others. Join us to connect, share, and learn. Explore diverse topics, get advice, and be part of a supportive network dedicated to personal growth and well-being.
                    </p>
                     <a href="/community" className="
                      inline-block
@@ -118,7 +116,7 @@ const OurServices = () => {
               </div>
               <div className="w-full md:w-1/2 xl:w-1/3 px-4">
                 <div className="bg-gray-100 rounded-lg overflow-hidden mb-10">
-                <img src="/img/tips.svg" alt="image" className="h-60 w-full p-4" />
+                <img src="/img/tips.png" alt="image" className="h-60 w-full p-4" />
                   <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                     <h3>
                       <a href="/" className="
@@ -133,11 +131,11 @@ const OurServices = () => {
                         block
                         hover:text-primary
                         ">
-                        Fire-Related Tips
+                        Life-Consultancy Tips
                       </a>
                     </h3>
                     <p className="text-base text-justify text-body-color leading-relaxed mb-7">
-                    We offer valuable fire-related tips and guidance to help individuals and organizations prevent fires and respond effectively in case of emergencies. These tips cover various aspects of fire safety.
+                    Effective life consultancy hinges on active listening, empathy, and a holistic approach. Collaborate on clear, achievable goals with personalized strategies, maintain confidentiality, and celebrate achievements.
                     </p>
                     <a href="/tip" className="
                      inline-block
@@ -157,7 +155,7 @@ const OurServices = () => {
               </div>
               <div className="w-full md:w-1/2 xl:w-1/3 px-4">
                 <div className="bg-gray-100 rounded-lg overflow-hidden mb-10">
-                <img src="/img/report.svg" alt="image" className="h-60 w-full p-4" />
+                <img src="/img/report.png" alt="image" className="h-70 w-full p-4" />
                   <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                     <h3>
                       <a href="/" className="
@@ -172,11 +170,11 @@ const OurServices = () => {
                         block
                         hover:text-primary
                         ">
-                        Report the Incident
+                        Talk to an advisor
                       </a>
                     </h3>
                     <p className="text-base text-body-color text-justify leading-relaxed mb-7">
-                    In the event of a fire incident, our service enables users to report the incident promptly and efficiently. This reporting system can help in emergency response for analysis and prevention.
+                    Connect with our dedicated life consultancy advisor for tailored guidance and support. Whether you seek assistance in health, career, or personal growth, our advisor is here to help you navigate life's challenges and achieve your goals.
                     </p>
                     <a href="/report" className="
                      inline-block
@@ -189,7 +187,7 @@ const OurServices = () => {
                      hover:border-orange-500 hover:bg-orange-500 hover:text-white
                      transition
                      ">
-                      Report
+                      Talk
                     </a>
                   </div>
                 </div>
@@ -214,10 +212,15 @@ const Tutorial = () => {
       <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16 mb-8">
   <div className="relative z-10 max-w-screen-xl px-4 sm:py-24 mx-auto sm:px-6 lg:px-8">
     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-justify font-medium text-lg sm:ml-auto">
-      Our safety tips service provides essential guidelines and recommendations to enhance safety in various settings. These tips cover a wide range of safety topics, including fire safety, to help individuals and organizations minimize risks and ensure the well-being of occupants and employees.
+    Our life consultancy tips are designed to empower individuals by offering valuable insights, strategies, 
+    and support in various aspects of life. Whether it's improving health, nurturing relationships, 
+    advancing your career, or fostering personal growth, our tips provide actionable advice to help you overcome obstacles, 
+    make informed decisions, and work towards your goals. We understand that life can be complex, and our guidance is tailored to your unique circumstances, e
+    nabling you to lead a more balanced, fulfilling life. With our tips, you'll gain the tools and knowledge to make positive changes and achieve the life you a
+    spire to.
     </div>
   </div>
-  <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
+  <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-20 h-full ">
     <div className="relative z-20 video rounded-2xl">
       <iframe className="rounded-2xl" width="560" height="315" src="https://www.youtube.com/embed/Q3LDGOFxJAE?si=9cR_qC1Ni4kyWFC_?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
