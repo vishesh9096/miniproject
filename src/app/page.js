@@ -1,5 +1,5 @@
-"use client";
-import Chat from "./components/chat";
+// "use client";
+// import Chat from "./components/chat";
 import Navbar from "./components/navbar";
 import { useState } from "react";
 
@@ -222,7 +222,7 @@ const Tutorial = () => {
   </div>
   <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-20 h-full ">
     <div className="relative z-20 video rounded-2xl">
-      <iframe className="rounded-2xl" width="560" height="315" src="https://www.youtube.com/embed/Q3LDGOFxJAE?si=9cR_qC1Ni4kyWFC_?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe className="rounded-2xl" width="560" height="315" src="https://www.youtube.com/embed/9MazN_6wdqI?si=9cR_qC1Ni4kyWFC_?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
   </div>
 </aside>
