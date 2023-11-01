@@ -1,5 +1,5 @@
-// "use client";
-// import Chat from "./components/chat";
+"use client";
+import Chat from "./components/chat";
 import Navbar from "./components/navbar";
 import { useState } from "react";
 
@@ -30,7 +30,7 @@ export default function Home() {
             </div>
             <div className="home-body-get-staeted mt-8">
               <a href="/chat-with-AI"><button className="button bg-orange-400 hover:bg-orange-600 text-white font-bold p-4 px-8 rounded-xl">
-                Get Start
+                Get Started
               </button>
               </a>
             </div>
@@ -206,7 +206,7 @@ const OurServices = () => {
 const Tutorial = () => {
   return(
     <div className="tutorial bg-gray-200 p-8">
-      <div className="tutorial-upper text-4xl font-bold mx-16 mt-8">
+      <div className="tutorial-upper text-4xl font-bold mx-16 mt-8 " style = {{color: 'black'}}>
         Tutorials
       </div>
       <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16 mb-8">

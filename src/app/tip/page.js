@@ -12,7 +12,7 @@ export default function Tip() {
 const TipUpper = () => {
     return (
         <div className="tutorial bg-gray-200 p-8">
-            <div className="tutorial-upper text-4xl font-bold mx-16 mt-4">
+            <div className="tutorial-upper text-4xl font-bold mx-16 mt-4" style = {{color: 'black'}}>
                 Tip of the day
                 <section class="text-gray-600 body-font">
                     <div class="container px-5 py-24 mx-auto">

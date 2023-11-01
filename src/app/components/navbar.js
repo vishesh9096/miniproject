@@ -1,3 +1,6 @@
+import Link from "next/link";
+
+
 const Navbar = () => {
     return(
         <nav className="bg-white px-24 py-2 flex justify-between">
@@ -12,7 +15,7 @@ const Navbar = () => {
         </ul>
         <div className="flex justify-center items-center">
           <button className="py-2 px-5 border rounded-xl bg-gray-600 text-white border-white hover:bg-orange-600">
-            Sign Up
+            <Link href="/signup">Sign Up</Link>
           </button>
         </div>
       </nav>
